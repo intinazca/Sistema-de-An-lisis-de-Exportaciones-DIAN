@@ -476,7 +476,7 @@ El modelo se guarda en `./ml_models/fob_predictor.joblib` junto con `fob_predict
 
 ---
 
-## ✅ Prerrequisitos
+## Prerrequisitos
 
 ### Software requerido
 
@@ -504,7 +504,7 @@ poetry --version
 
 ---
 
-## ⚙️ Instalación y Configuración
+## Instalación y Configuración
 
 ### 1. Clonar o posicionarse en el directorio del proyecto
 
@@ -556,7 +556,7 @@ psql -U postgres -c "CREATE DATABASE exportaciones;"
 
 ---
 
-## 🚀 Guía de Ejecución
+## Guía de Ejecución
 
 ### Modo Local (desarrollo)
 
@@ -689,7 +689,7 @@ DATA_DIR=/ruta/absoluta/a/los/xlsx
 
 ---
 
-## 🧪 Ejecutar los Tests
+## Ejecutar los Tests
 
 ### Instalación de dependencias de desarrollo
 
@@ -758,7 +758,7 @@ poetry run mypy src/ --ignore-missing-imports  # Type checking estático
 
 ---
 
-## 🔄 CI/CD con GitHub Actions
+## CI/CD con GitHub Actions
 
 El pipeline `.github/workflows/ci.yml` define **4 etapas** que se ejecutan en cada `push` o `pull_request`:
 
@@ -822,7 +822,7 @@ K-Fold aleatorio en series temporales produce **data leakage**: el modelo entren
 
 ---
 
-## 📄 Licencia
+## Licencia
 
 Uso interno — Datos de la DIAN Colombia.
 
