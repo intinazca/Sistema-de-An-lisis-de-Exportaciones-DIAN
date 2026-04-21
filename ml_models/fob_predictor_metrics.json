@@ -1,0 +1,38 @@
+{
+  "mae_promedio": 12147716.956632445,
+  "rmse_promedio": 131721927.110974,
+  "r2_promedio": 0.9534227667506681,
+  "n_samples": 2893,
+  "features": [
+    "mes_numero",
+    "trimestre",
+    "anio",
+    "fob_lag1",
+    "fob_lag2",
+    "fob_lag3",
+    "fob_rolling3",
+    "decl_lag1",
+    "pct_cambio_fob",
+    "num_paises",
+    "peso_promedio",
+    "es_aereo",
+    "es_maritimo",
+    "es_carretero"
+  ],
+  "feature_importance": {
+    "mes_numero": 0.0009115898343647378,
+    "trimestre": 8.167012326212532e-05,
+    "anio": 0.0,
+    "fob_lag1": 0.6895263430283287,
+    "fob_lag2": 0.001758147819133193,
+    "fob_lag3": 0.0005153882423830065,
+    "fob_rolling3": 0.11505863233391284,
+    "decl_lag1": 0.0005973824593223907,
+    "pct_cambio_fob": 0.18707387314333657,
+    "num_paises": 0.0014358442964454855,
+    "peso_promedio": 0.002869782522216299,
+    "es_aereo": 6.464317795267987e-05,
+    "es_maritimo": 0.00010603913468382573,
+    "es_carretero": 6.638846581118455e-07
+  }
+}

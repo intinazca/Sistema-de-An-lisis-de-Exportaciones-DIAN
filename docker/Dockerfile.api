@@ -1,0 +1,23 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Instalar dependencias del sistema mínimas
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    libpq-dev gcc curl && \
+    rm -rf /var/lib/apt/lists/*
+
+# Instalar Poetry
+RUN pip install --no-cache-dir poetry==1.8.3
+
+# Copiar solo archivos de dependencias primero (cache layer)
+COPY pyproject.toml poetry.lock ./
+RUN poetry config virtualenvs.create false && \
+    poetry install --without dev --no-interaction --no-ansi
+
+# Copiar código fuente
+COPY src/ ./src/
+
+EXPOSE 8000
+
+CMD ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4"]

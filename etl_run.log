@@ -1,0 +1,202 @@
+2026-04-19 20:30:34.392 | INFO     | __main__:run_pipeline:113 - Archivos encontrados: 13
+2026-04-19 20:30:34.392 | INFO     | src.db.init_db:create_tables:10 - Creando esquema de base de datos...
+2026-04-19 20:30:34.440 | SUCCESS  | src.db.init_db:create_tables:12 - Tablas creadas exitosamente.
+2026-04-19 20:30:34.440 | INFO     | __main__:process_file:58 - Procesando: 600_20251207.xlsx
+2026-04-19 20:31:04.998 | DEBUG    | __main__:process_file:72 -   40967 declaraciones, 79673 series (raw)
+2026-04-19 20:34:36.250 | INFO     | __main__:run_pipeline:116 - Archivos encontrados: 13
+2026-04-19 20:34:36.250 | INFO     | src.db.init_db:create_tables:10 - Creando esquema de base de datos...
+2026-04-19 20:34:36.301 | SUCCESS  | src.db.init_db:create_tables:12 - Tablas creadas exitosamente.
+2026-04-19 20:34:36.346 | INFO     | __main__:process_file:58 - Procesando: 600_20251207.xlsx
+2026-04-19 20:35:04.656 | DEBUG    | __main__:process_file:75 -   40967 declaraciones, 79673 series (raw)
+2026-04-19 20:36:07.436 | INFO     | __main__:run_pipeline:116 - Archivos encontrados: 13
+2026-04-19 20:36:07.436 | INFO     | src.db.init_db:create_tables:10 - Creando esquema de base de datos...
+2026-04-19 20:36:07.486 | SUCCESS  | src.db.init_db:create_tables:12 - Tablas creadas exitosamente.
+2026-04-19 20:36:07.487 | INFO     | __main__:process_file:58 - Procesando: 600_20251207.xlsx
+2026-04-19 20:36:35.688 | DEBUG    | __main__:process_file:75 -   40967 declaraciones, 79673 series (raw)
+2026-04-19 20:36:47.434 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 20:51:04.160 | INFO     | __main__:run_pipeline:116 - Archivos encontrados: 13
+2026-04-19 20:51:04.161 | INFO     | src.db.init_db:create_tables:10 - Creando esquema de base de datos...
+2026-04-19 20:51:04.212 | SUCCESS  | src.db.init_db:create_tables:12 - Tablas creadas exitosamente.
+2026-04-19 20:51:04.212 | INFO     | __main__:process_file:58 - Procesando: 600_20251207.xlsx
+2026-04-19 20:51:32.712 | DEBUG    | __main__:process_file:75 -   40967 declaraciones, 79673 series (raw)
+2026-04-19 20:51:44.662 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:38:23.093 | INFO     | __main__:run_pipeline:116 - Archivos encontrados: 13
+2026-04-19 21:38:23.093 | INFO     | src.db.init_db:create_tables:10 - Creando esquema de base de datos...
+2026-04-19 21:38:23.144 | SUCCESS  | src.db.init_db:create_tables:12 - Tablas creadas exitosamente.
+2026-04-19 21:38:23.144 | INFO     | __main__:process_file:58 - Procesando: 600_20251207.xlsx
+2026-04-19 21:38:56.299 | DEBUG    | __main__:process_file:75 -   40967 declaraciones, 79673 series (raw)
+2026-04-19 21:39:10.290 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:42:10.697 | INFO     | __main__:run_pipeline:116 - Archivos encontrados: 13
+2026-04-19 21:42:10.697 | INFO     | src.db.init_db:create_tables:10 - Creando esquema de base de datos...
+2026-04-19 21:42:10.748 | SUCCESS  | src.db.init_db:create_tables:12 - Tablas creadas exitosamente.
+2026-04-19 21:42:10.748 | INFO     | __main__:process_file:58 - Procesando: 600_20251207.xlsx
+2026-04-19 21:42:44.302 | DEBUG    | __main__:process_file:75 -   40967 declaraciones, 79673 series (raw)
+2026-04-19 21:42:57.301 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:43:01.188 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:43:12.913 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:43:15.050 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:45:24.603 | INFO     | __main__:run_pipeline:116 - Archivos encontrados: 13
+2026-04-19 21:45:24.604 | INFO     | src.db.init_db:create_tables:10 - Creando esquema de base de datos...
+2026-04-19 21:45:24.657 | SUCCESS  | src.db.init_db:create_tables:12 - Tablas creadas exitosamente.
+2026-04-19 21:45:24.657 | INFO     | __main__:process_file:58 - Procesando: 600_20251207.xlsx
+2026-04-19 21:45:56.988 | DEBUG    | __main__:process_file:75 -   40967 declaraciones, 79673 series (raw)
+2026-04-19 21:46:02.679 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 0 nuevas, 10000 omitidas
+2026-04-19 21:46:06.684 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:46:11.566 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 0 nuevas, 10000 omitidas
+2026-04-19 21:46:13.654 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:46:24.989 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:46:27.776 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:46:39.015 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:46:40.787 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:46:41.890 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 967 nuevas, 0 omitidas
+2026-04-19 21:46:42.072 | DEBUG    | __main__:process_file:100 -   Chunk 5: commit OK
+2026-04-19 21:46:42.072 | SUCCESS  | __main__:process_file:102 -   600_20251207.xlsx: 40967 decl, 79673 series cargadas
+2026-04-19 21:46:42.121 | INFO     | __main__:process_file:58 - Procesando: 600_20251213.xlsx
+2026-04-19 21:47:04.234 | DEBUG    | __main__:process_file:75 -   36093 declaraciones, 73722 series (raw)
+2026-04-19 21:47:16.193 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:47:20.670 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:47:31.553 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:47:33.659 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:47:45.039 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:47:47.819 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:47:54.360 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 6093 nuevas, 0 omitidas
+2026-04-19 21:47:55.236 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:47:55.236 | SUCCESS  | __main__:process_file:102 -   600_20251213.xlsx: 36093 decl, 73722 series cargadas
+2026-04-19 21:47:55.280 | INFO     | __main__:process_file:58 - Procesando: 600_20251219.xlsx
+2026-04-19 21:48:12.893 | DEBUG    | __main__:process_file:75 -   34920 declaraciones, 67762 series (raw)
+2026-04-19 21:48:24.398 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:48:27.633 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:48:38.241 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:48:40.117 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:48:50.935 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:48:53.321 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:48:58.565 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 4920 nuevas, 0 omitidas
+2026-04-19 21:48:59.266 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:48:59.267 | SUCCESS  | __main__:process_file:102 -   600_20251219.xlsx: 34920 decl, 67762 series cargadas
+2026-04-19 21:48:59.307 | INFO     | __main__:process_file:58 - Procesando: 600_20251225.xlsx
+2026-04-19 21:49:07.479 | DEBUG    | __main__:process_file:75 -   30441 declaraciones, 30441 series (raw)
+2026-04-19 21:49:18.685 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:49:19.893 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:49:30.740 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:49:32.071 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:49:42.481 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:49:43.636 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:49:44.086 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 441 nuevas, 0 omitidas
+2026-04-19 21:49:44.145 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:49:44.145 | SUCCESS  | __main__:process_file:102 -   600_20251225.xlsx: 30441 decl, 30441 series cargadas
+2026-04-19 21:49:44.174 | INFO     | __main__:process_file:58 - Procesando: 600_20251231.xlsx
+2026-04-19 21:49:52.239 | DEBUG    | __main__:process_file:75 -   28511 declaraciones, 28511 series (raw)
+2026-04-19 21:50:03.584 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:50:04.790 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:50:15.425 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:50:16.595 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:50:25.654 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 8511 nuevas, 0 omitidas
+2026-04-19 21:50:26.659 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:50:26.660 | SUCCESS  | __main__:process_file:102 -   600_20251231.xlsx: 28511 decl, 28511 series cargadas
+2026-04-19 21:50:26.682 | INFO     | __main__:process_file:58 - Procesando: 600_20251109.xlsx
+2026-04-19 21:50:42.862 | DEBUG    | __main__:process_file:75 -   42305 declaraciones, 42305 series (raw)
+2026-04-19 21:50:54.122 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:50:55.277 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:51:05.882 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:51:06.962 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:51:17.543 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:51:18.611 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:51:29.163 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:51:30.261 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:51:32.684 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 2305 nuevas, 0 omitidas
+2026-04-19 21:51:33.000 | DEBUG    | __main__:process_file:100 -   Chunk 5: commit OK
+2026-04-19 21:51:33.000 | SUCCESS  | __main__:process_file:102 -   600_20251109.xlsx: 42305 decl, 42305 series cargadas
+2026-04-19 21:51:33.026 | INFO     | __main__:process_file:58 - Procesando: 600_20251117.xlsx
+2026-04-19 21:51:49.511 | DEBUG    | __main__:process_file:75 -   46600 declaraciones, 46600 series (raw)
+2026-04-19 21:52:00.774 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:52:02.005 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:52:12.580 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:52:13.745 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:52:24.318 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:52:25.380 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:52:35.936 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:52:37.018 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:52:43.948 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 6600 nuevas, 0 omitidas
+2026-04-19 21:52:44.713 | DEBUG    | __main__:process_file:100 -   Chunk 5: commit OK
+2026-04-19 21:52:44.713 | SUCCESS  | __main__:process_file:102 -   600_20251117.xlsx: 46600 decl, 46600 series cargadas
+2026-04-19 21:52:44.743 | INFO     | __main__:process_file:58 - Procesando: 600_20251125.xlsx
+2026-04-19 21:53:02.090 | DEBUG    | __main__:process_file:75 -   48190 declaraciones, 48190 series (raw)
+2026-04-19 21:53:13.412 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:53:14.590 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:53:25.201 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:53:26.309 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:53:36.870 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:53:37.959 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:53:48.503 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:53:49.573 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:53:58.288 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 8190 nuevas, 0 omitidas
+2026-04-19 21:53:59.193 | DEBUG    | __main__:process_file:100 -   Chunk 5: commit OK
+2026-04-19 21:53:59.193 | SUCCESS  | __main__:process_file:102 -   600_20251125.xlsx: 48190 decl, 48190 series cargadas
+2026-04-19 21:53:59.227 | INFO     | __main__:process_file:58 - Procesando: 600_20251130.xlsx
+2026-04-19 21:54:08.149 | DEBUG    | __main__:process_file:75 -   29935 declaraciones, 29935 series (raw)
+2026-04-19 21:54:19.174 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:54:20.349 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:54:30.887 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:54:31.920 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:54:42.420 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 9935 nuevas, 0 omitidas
+2026-04-19 21:54:43.616 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:54:43.616 | SUCCESS  | __main__:process_file:102 -   600_20251130.xlsx: 29935 decl, 29935 series cargadas
+2026-04-19 21:54:43.638 | INFO     | __main__:process_file:58 - Procesando: F600_20251009.xlsx
+2026-04-19 21:55:00.895 | DEBUG    | __main__:process_file:75 -   47559 declaraciones, 47559 series (raw)
+2026-04-19 21:55:12.154 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:55:13.352 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:55:23.944 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:55:25.083 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:55:35.654 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:55:36.746 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:55:47.313 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:55:48.436 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:55:56.451 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 7559 nuevas, 0 omitidas
+2026-04-19 21:55:57.317 | DEBUG    | __main__:process_file:100 -   Chunk 5: commit OK
+2026-04-19 21:55:57.317 | SUCCESS  | __main__:process_file:102 -   F600_20251009.xlsx: 47559 decl, 47559 series cargadas
+2026-04-19 21:55:57.352 | INFO     | __main__:process_file:58 - Procesando: F600_20251017.xlsx
+2026-04-19 21:56:13.914 | DEBUG    | __main__:process_file:75 -   45958 declaraciones, 45958 series (raw)
+2026-04-19 21:56:25.166 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:56:26.347 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:56:36.867 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:56:37.999 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:56:48.664 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:56:49.814 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:57:00.402 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:57:01.576 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:57:07.852 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 5958 nuevas, 0 omitidas
+2026-04-19 21:57:08.537 | DEBUG    | __main__:process_file:100 -   Chunk 5: commit OK
+2026-04-19 21:57:08.537 | SUCCESS  | __main__:process_file:102 -   F600_20251017.xlsx: 45958 decl, 45958 series cargadas
+2026-04-19 21:57:08.570 | INFO     | __main__:process_file:58 - Procesando: F600_20251025.xlsx
+2026-04-19 21:57:25.736 | DEBUG    | __main__:process_file:75 -   48452 declaraciones, 48452 series (raw)
+2026-04-19 21:57:36.963 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:57:38.108 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:57:48.684 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:57:49.815 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:58:00.406 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:58:01.493 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:58:12.022 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:58:13.100 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:58:22.017 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 8452 nuevas, 0 omitidas
+2026-04-19 21:58:22.977 | DEBUG    | __main__:process_file:100 -   Chunk 5: commit OK
+2026-04-19 21:58:22.977 | SUCCESS  | __main__:process_file:102 -   F600_20251025.xlsx: 48452 decl, 48452 series cargadas
+2026-04-19 21:58:23.012 | INFO     | __main__:process_file:58 - Procesando: F600_20251031.xlsx
+2026-04-19 21:58:37.157 | DEBUG    | __main__:process_file:75 -   40256 declaraciones, 40256 series (raw)
+2026-04-19 21:58:48.304 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:58:49.479 | DEBUG    | __main__:process_file:100 -   Chunk 1: commit OK
+2026-04-19 21:59:00.050 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:59:01.158 | DEBUG    | __main__:process_file:100 -   Chunk 2: commit OK
+2026-04-19 21:59:11.702 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:59:12.783 | DEBUG    | __main__:process_file:100 -   Chunk 3: commit OK
+2026-04-19 21:59:23.369 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 10000 nuevas, 0 omitidas
+2026-04-19 21:59:24.477 | DEBUG    | __main__:process_file:100 -   Chunk 4: commit OK
+2026-04-19 21:59:24.747 | DEBUG    | src.etl.loader:load_declaraciones_batch:103 -   Declaraciones: 256 nuevas, 0 omitidas
+2026-04-19 21:59:24.783 | DEBUG    | __main__:process_file:100 -   Chunk 5: commit OK
+2026-04-19 21:59:24.783 | SUCCESS  | __main__:process_file:102 -   F600_20251031.xlsx: 40256 decl, 40256 series cargadas
+2026-04-19 21:59:24.817 | SUCCESS  | __main__:run_pipeline:131 - ETL completado: 520187 declaraciones, 629364 series
+2026-04-19 21:59:27.250 | SUCCESS  | src.db.init_db:create_analytical_views:72 - Vistas analíticas creadas.
+2026-04-19 21:59:28.461 | WARNING  | __main__:run_pipeline:140 - No se pudieron refrescar vistas: (psycopg2.errors.ObjectNotInPrerequisiteState) no se puede refrescar la vista materializada «public.mv_tendencia_mensual» concurrentemente
+HINT:  Cree un índice único sin cláusula WHERE en una o más columnas de la vista materializada.
+
+[SQL: REFRESH MATERIALIZED VIEW CONCURRENTLY mv_tendencia_mensual]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
